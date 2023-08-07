@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/test">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="121dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/txtPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:hint="Mật Khẩu"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/white"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Đăng Nhập" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:text="Bạn chưa có tài khoản? Đăng kí ngay!"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+</LinearLayout>
